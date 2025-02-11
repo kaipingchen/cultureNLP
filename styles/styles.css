@@ -1,0 +1,21 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.user-message, .bot-message {
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 60%;
+    margin: 5px;
+    position: relative;
+    margin-top: 15px; /* Staggered positioning for each message */
+}
+.user-message {
+    align-self: flex-end;
+    background-color: var(--background-color-user);
+}
+.bot-message {
+    align-self: flex-start;
+    background-color: var(--background-color-bot);
+}
