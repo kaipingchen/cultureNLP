@@ -9,7 +9,7 @@
     max-width: 60%;
     margin: 5px;
     position: relative;
-    margin-top: 15px; /* Staggered positioning for each message */
+    margin-top: 15px;
 }
 .user-message {
     align-self: flex-end;
