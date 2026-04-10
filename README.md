@@ -20,7 +20,9 @@ git clone https://github.com/kaipingchen/cultureNLP.git
 
 ### Install dependencies
 
-Make sure you have Python 3.13.0 or above installed. To install the required dependencies, execute the following command:
+Create a virtual environment by running ```python -m venv venv```. Activate it using ```source venv/bin/activate``` (macOS/Linux) or ```.\venv\Scripts\activate``` (Windows). Run ```deactivate``` to exit.
+
+In the activated virtual environment, install Python 3.13.0. Then install the required dependencies by executing the following command:
 
 ```bash
 pip install -r requirements.txt
