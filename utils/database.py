@@ -16,7 +16,7 @@ def get_mongo_client():
 def insert_data_to_db(data):
     client = get_mongo_client()
     db = client['latinx-nlp']
-    collection = db['user_data']
+    collection = db['user-data']
     collection.insert_one(data)
     client.close()
 
